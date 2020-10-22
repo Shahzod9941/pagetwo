@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    
+<div id="navbar" >
+    <a onclick="openNav()">&#9776;</a>
+    <a href="./index.html"><i class="fa fa-home"></i></a>
+    <a href="#">Новости</a>
+    <a href="./form.html">Контакт</a>
+    
+  </div>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  
+
+<div id="mySidenav" class="sidenav">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+
+    <a href="#"><i class="fa fa-fw fa-car"></i> Auto</a>
+    <a href="#"><i class="fa fa-user"></i> Clothers</a>
+    <a href="./green.html"><i class="fa fa-fw fa-tree"></i> Green</a>
+    <a href="#"><i class="fa fa-fw fa-cutlery"></i> Foods</a>
+    <a href="#"><i class="fa fa-fw fa-handshake-o"></i> Service</a>
+    <a href="#"><i class="fa fa-fw fa-laptop"></i> Computers</a>
+    <a href="#"><i class="fa fa-fw fa-envelope"></i> Headphones</a>
+    <a href="#"><i class="fa fa-fw fa-mobile"></i> Smartphones</a>
+    
+  </div>
+
+  <!-- <form class="form-signin ">
+    <div class=" container text-center">
+      
+      <h1 class="h3 mb-3 font-weight-normal">Контакты</h1>
+      <p>Хотите чтобы вашых скидки видели все? Оставьте заявку мы обезятельно свяжемся с вами</p>
+    </div>
+
+    <div class="form-label-group">
+      <input type="email" id="inputEmail" class="form-control" placeholder="Email address" required="" autofocus="">
+      <label for="inputEmail">Email address</label>
+    </div>
+
+    <div class="form-label-group">
+      <input type="password" id="inputPassword" class="form-control" placeholder="Password" required="">
+      <label for="inputPassword">Password</label>
+    </div>
+
+    <div class="checkbox mb-3">
+      <label>
+        <input type="checkbox" value="remember-me"> Remember me
+      </label>
+    </div>
+    <button class="btn btn-lg btn-primary btn-block" type="submit">Sign in</button>
+    <p class="mt-5 mb-3 text-muted text-center">© 2017-2018</p>
+  </form> -->
+  
+
+  <div class="container">
+      <div class="container text-center">
+        <h1>Contact form</h1>
+      </div>
+    <form action="">
+
+      <div class="row">
+        <div class="col-25">
+          <label for="fname">Имя</label>
+        </div>
+        <div class="col-75">
+          <input type="text" id="name" name="name" placeholder="">
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-25">
+          <label for="shop-name">Название магазина</label>
+        </div>
+        <div class="col-75">
+          <input type="text" id="shop-name" name="shop-name">
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-25">
+          <label for="discount">Сумма скидки</label>
+        </div>
+        <div class="col-75">
+          <input type="text" id="discount" name="discount" placeholder="">
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-25">
+          <label for="tel-number">Номер телефона</label>
+        </div>
+        <div class="col-75">
+          <input type="text" id="tel-number" name="tel-number" placeholder="">
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-25">
+          <label for="shop-address">Адресс магазина</label>
+        </div>
+        <div class="col-75">
+          <input type="text" id="shop-address" name="shop-address" placeholder="">
+        </div>
+      </div>
+      <!-- <div class="row">
+        <div class="col-25">
+          <label for="country">Страна</label>
+        </div>
+        <div class="col-75">
+          <select id="country" name="country">
+            <option value="australia">Австралия</option>
+            <option value="canada">Канада</option>
+            <option value="usa">США</option>
+          </select>
+        </div>
+      </div> -->
+      <div class="row">
+        <div class="col-25">
+          <label for="subject">Описание</label>
+        </div>
+        <div class="col-75">
+          <textarea id="subject" name="subject" placeholder="Написать нечто.." style="height:200px"></textarea>
+        </div>
+      </div>
+      <div class="row">
+        <input type="submit" value="Отправить">
+      </div>
+    </form>
+  </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
